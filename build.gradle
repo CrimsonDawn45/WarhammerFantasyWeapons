@@ -1,5 +1,5 @@
 plugins {
-	id 'fabric-loom' version '0.9-SNAPSHOT'
+	id 'fabric-loom' version '0.10-SNAPSHOT'
 	id 'maven-publish'
 }
 
@@ -83,7 +83,7 @@ publishing {
 	repositories {
 		allprojects {
 			repositories {
-				maven { url 'https://jitpack.io' }
+				//maven { url 'https://jitpack.io' }
 			}
 		}
 	}

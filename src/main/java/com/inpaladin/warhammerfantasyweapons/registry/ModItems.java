@@ -8,7 +8,7 @@ import net.minecraft.item.*;
 import net.minecraft.tag.ItemTags;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
-import com.github.crimsondawn45.fabricshieldlib.lib.object.FabricShieldItem;
+//import com.github.crimsondawn45.fabricshieldlib.lib.object.FabricShieldItem;
 
 import static net.minecraft.item.ToolMaterials.*;
 
