@@ -1,9 +1,3 @@
-# Fabric Example Mod
+# Warhammer Fantasy Weapons
 
-## Setup
-
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+For more information on this project you can check out the [curseforge page](https://www.curseforge.com/minecraft/mc-mods/warhammer-fantasy-weapons).
