@@ -16,18 +16,18 @@ public class ModItems {
 
     //items
     public static final Item GROMRIL_INGOT = new Item(new FabricItemSettings().fireproof().group(ItemGroup.MATERIALS));
-    public static final Item SWORD_BREAKER_WOOD = new FabricShieldItem(new FabricItemSettings().maxDamage(36).group(ItemGroup.COMBAT), 10, 0, ItemTags.PLANKS);
-    public static final Item SWORD_BREAKER_STONE = new FabricShieldItem(new FabricItemSettings().maxDamage(76).group(ItemGroup.COMBAT), 10, 0, ItemTags.STONE_TOOL_MATERIALS);
-    public static final Item SWORD_BREAKER = new FabricShieldItem(new FabricItemSettings().maxDamage(176).group(ItemGroup.COMBAT), 10, 0, Items.IRON_INGOT);
-    public static final Item SWORD_BREAKER_DIAMOND = new FabricShieldItem(new FabricItemSettings().maxDamage(276).group(ItemGroup.COMBAT), 10, 0, Items.DIAMOND);
-    public static final Item SWORD_BREAKER_NETHERITE = new FabricShieldItem(new FabricItemSettings().fireproof().maxDamage(336).group(ItemGroup.COMBAT), 10, 0, Items.NETHERITE_INGOT);
-    public static final Item SWORD_BREAKER_GROMRIL = new FabricShieldItem(new FabricItemSettings().fireproof().maxDamage(336).group(ItemGroup.COMBAT), 10, 0, ModItems.GROMRIL_INGOT);
-    public static final Item SWORD_BREAKER_GOLD = new FabricShieldItem(new FabricItemSettings().maxDamage(16).group(ItemGroup.COMBAT), 10, 0, Items.GOLD_INGOT);
+    //public static final Item SWORD_BREAKER_WOOD = new FabricShieldItem(new FabricItemSettings().maxDamage(36).group(ItemGroup.COMBAT), 10, 0, ItemTags.PLANKS);
+    //public static final Item SWORD_BREAKER_STONE = new FabricShieldItem(new FabricItemSettings().maxDamage(76).group(ItemGroup.COMBAT), 10, 0, ItemTags.STONE_TOOL_MATERIALS);
+    //public static final Item SWORD_BREAKER = new FabricShieldItem(new FabricItemSettings().maxDamage(176).group(ItemGroup.COMBAT), 10, 0, Items.IRON_INGOT);
+    //public static final Item SWORD_BREAKER_DIAMOND = new FabricShieldItem(new FabricItemSettings().maxDamage(276).group(ItemGroup.COMBAT), 10, 0, Items.DIAMOND);
+    //public static final Item SWORD_BREAKER_NETHERITE = new FabricShieldItem(new FabricItemSettings().fireproof().maxDamage(336).group(ItemGroup.COMBAT), 10, 0, Items.NETHERITE_INGOT);
+    //public static final Item SWORD_BREAKER_GROMRIL = new FabricShieldItem(new FabricItemSettings().fireproof().maxDamage(336).group(ItemGroup.COMBAT), 10, 0, ModItems.GROMRIL_INGOT);
+    //public static final Item SWORD_BREAKER_GOLD = new FabricShieldItem(new FabricItemSettings().maxDamage(16).group(ItemGroup.COMBAT), 10, 0, Items.GOLD_INGOT);
     public static final Item RAW_GROMRIL = new Item(new FabricItemSettings().fireproof().group(ItemGroup.MATERIALS));
     public static final Item GLASS_HAMMER_BROKEN = new Item(new FabricItemSettings().group(ItemGroup.TOOLS));
     public static final Item GLASS_HAMMER = new Item(new FabricItemSettings().recipeRemainder(GLASS_HAMMER_BROKEN).group(ItemGroup.TOOLS));
     public static final Item NASCENT_ALLOY = new Item(new FabricItemSettings().group(ItemGroup.MATERIALS));
-    public static final Item GROMRIL_SHIELD = new FabricShieldItem(new FabricItemSettings().fireproof().maxDamage(436).group(ItemGroup.COMBAT), 100, 0, ModItems.GROMRIL_INGOT);
+    //public static final Item GROMRIL_SHIELD = new FabricShieldItem(new FabricItemSettings().fireproof().maxDamage(436).group(ItemGroup.COMBAT), 100, 0, ModItems.GROMRIL_INGOT);
 
     //armor
     public static final ArmorMaterial ARMOR_MATERIAL_GROMRIL = new ArmorMaterialGromril();
@@ -48,13 +48,13 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(WarhammerFantasyWeapons.MOD_ID, "war_hammer_diamond"), new WarHammerBase(DIAMOND, new FabricItemSettings().group(ItemGroup.COMBAT)));
         Registry.register(Registry.ITEM, new Identifier(WarhammerFantasyWeapons.MOD_ID, "war_hammer_netherite"), new WarHammerBase(NETHERITE, new FabricItemSettings().fireproof().group(ItemGroup.COMBAT)));
         Registry.register(Registry.ITEM, new Identifier(WarhammerFantasyWeapons.MOD_ID, "war_hammer_gromril"), new WarHammerBase(new ToolMaterialGromril(), new FabricItemSettings().fireproof().group(ItemGroup.COMBAT)));
-        Registry.register(Registry.ITEM, new Identifier(WarhammerFantasyWeapons.MOD_ID, "sword_breaker_wood"), SWORD_BREAKER_WOOD);
-        Registry.register(Registry.ITEM, new Identifier(WarhammerFantasyWeapons.MOD_ID, "sword_breaker_stone"), SWORD_BREAKER_STONE);
-        Registry.register(Registry.ITEM, new Identifier(WarhammerFantasyWeapons.MOD_ID, "sword_breaker"), SWORD_BREAKER);
-        Registry.register(Registry.ITEM, new Identifier(WarhammerFantasyWeapons.MOD_ID, "sword_breaker_gold"), SWORD_BREAKER_GOLD);
-        Registry.register(Registry.ITEM, new Identifier(WarhammerFantasyWeapons.MOD_ID, "sword_breaker_diamond"), SWORD_BREAKER_DIAMOND);
-        Registry.register(Registry.ITEM, new Identifier(WarhammerFantasyWeapons.MOD_ID, "sword_breaker_netherite"), SWORD_BREAKER_NETHERITE);
-        Registry.register(Registry.ITEM, new Identifier(WarhammerFantasyWeapons.MOD_ID, "sword_breaker_gromril"), SWORD_BREAKER_GROMRIL);
+        //Registry.register(Registry.ITEM, new Identifier(WarhammerFantasyWeapons.MOD_ID, "sword_breaker_wood"), SWORD_BREAKER_WOOD);
+        //Registry.register(Registry.ITEM, new Identifier(WarhammerFantasyWeapons.MOD_ID, "sword_breaker_stone"), SWORD_BREAKER_STONE);
+        //Registry.register(Registry.ITEM, new Identifier(WarhammerFantasyWeapons.MOD_ID, "sword_breaker"), SWORD_BREAKER);
+        //Registry.register(Registry.ITEM, new Identifier(WarhammerFantasyWeapons.MOD_ID, "sword_breaker_gold"), SWORD_BREAKER_GOLD);
+        //Registry.register(Registry.ITEM, new Identifier(WarhammerFantasyWeapons.MOD_ID, "sword_breaker_diamond"), SWORD_BREAKER_DIAMOND);
+        //Registry.register(Registry.ITEM, new Identifier(WarhammerFantasyWeapons.MOD_ID, "sword_breaker_netherite"), SWORD_BREAKER_NETHERITE);
+        //Registry.register(Registry.ITEM, new Identifier(WarhammerFantasyWeapons.MOD_ID, "sword_breaker_gromril"), SWORD_BREAKER_GROMRIL);
         Registry.register(Registry.ITEM, new Identifier(WarhammerFantasyWeapons.MOD_ID, "halberd_wood"), new HalberdBase(new HalberdMaterialWood(), new FabricItemSettings().group(ItemGroup.COMBAT)));
         Registry.register(Registry.ITEM, new Identifier(WarhammerFantasyWeapons.MOD_ID, "halberd_stone"), new HalberdBase(new HalberdMaterialStone(), new FabricItemSettings().group(ItemGroup.COMBAT)));
         Registry.register(Registry.ITEM, new Identifier(WarhammerFantasyWeapons.MOD_ID, "halberd_iron"), new HalberdBase(new HalberdMaterialIron(), new FabricItemSettings().group(ItemGroup.COMBAT)));
@@ -79,7 +79,7 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(WarhammerFantasyWeapons.MOD_ID, "gromril_pickaxe"), new CustomPickaxeItem(ToolMaterialGromril.INSTANCE, 1, -2.8f, new FabricItemSettings().fireproof().group(ItemGroup.TOOLS)));
         Registry.register(Registry.ITEM, new Identifier(WarhammerFantasyWeapons.MOD_ID, "gromril_axe"), new CustomAxeItem(ToolMaterialGromril.INSTANCE, 5, -3, new FabricItemSettings().fireproof().group(ItemGroup.TOOLS)));
         Registry.register(Registry.ITEM, new Identifier(WarhammerFantasyWeapons.MOD_ID, "gromril_hoe"), new CustomHoeItem(ToolMaterialGromril.INSTANCE, -3, 0, new FabricItemSettings().fireproof().group(ItemGroup.TOOLS)));
-        Registry.register(Registry.ITEM, new Identifier(WarhammerFantasyWeapons.MOD_ID, "gromril_shield"), GROMRIL_SHIELD);
+        //Registry.register(Registry.ITEM, new Identifier(WarhammerFantasyWeapons.MOD_ID, "gromril_shield"), GROMRIL_SHIELD);
 
         //blocks
         Registry.register(Registry.ITEM, new Identifier(WarhammerFantasyWeapons.MOD_ID, "gromril_block"), GROMRIL_BLOCK);
