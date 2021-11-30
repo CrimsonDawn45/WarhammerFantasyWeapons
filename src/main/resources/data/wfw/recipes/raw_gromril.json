@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bPb",
+    "PnP",
+    "bPb"
+  ],
+  "key": {
+    "b": {
+      "item": "minecraft:blaze_powder"
+    },
+    "P": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "n": {
+      "item": "wfw:nascent_alloy"
+    }
+  },
+  "result": {
+    "item": "wfw:raw_gromril",
+    "count": 1
+  }
+}

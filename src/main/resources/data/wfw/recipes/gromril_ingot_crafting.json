@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wfw:gromril_block"
+    }
+  ],
+  "result": {
+    "item": "wfw:gromril_ingot",
+    "count": 9
+  }
+}

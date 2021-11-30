@@ -1,0 +1,30 @@
+{"parent":"item/handheld",
+    "textures":{"layer0":"wfw:items/sword_breaker_stone"},
+
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [ -20, 270, 33 ],
+            "translation": [ 0.00, 3.65, 2.60 ],
+            "scale": [0.70, 0.70, 0.70]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [-5, 270,-50 ],
+            "translation": [ 0.00, 3.65, 2.60 ],
+            "scale": [0.70, 0.70, 0.70]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ -182, 270, 120 ],
+            "translation": [ 2.50, 3.30, 0.00 ],
+            "scale": [ 0.75, 0.75, 0.75 ]
+        }
+    },
+
+    "overrides": [
+        {
+            "predicate": {
+                "blocking": 1
+            },
+            "model": "wfw:item/sword_breaker_stone_blocking"
+        }
+    ]
+}

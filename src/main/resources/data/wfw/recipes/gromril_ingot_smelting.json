@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "wfw:raw_gromril"
+  },
+  "result": "wfw:gromril_ingot",
+  "experience": 18,
+  "cookingtime": 3600
+}

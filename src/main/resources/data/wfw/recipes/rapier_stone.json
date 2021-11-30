@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " c ",
+    " c ",
+    "cs "
+  ],
+  "key": {
+    "c": {
+      "tag": "minecraft:stone_tool_materials"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "wfw:rapier_stone",
+    "count": 1
+  }
+
+}

@@ -1,0 +1,23 @@
+{
+  "type": "alloy_forgery:forging",
+  "inputs": [
+    {
+      "item": "wfw:raw_gromril"
+    },
+    {
+      "item": "wfw:raw_gromril"
+    }
+  ],
+  "output": {
+    "id": "wfw:gromril_ingot",
+    "count": 3
+  },
+  "overrides": {
+    "3+": {
+      "id": "wfw:gromril_ingot",
+      "count": 4
+    }
+  },
+  "min_forge_tier": 2,
+  "fuel_per_tick": 50
+}

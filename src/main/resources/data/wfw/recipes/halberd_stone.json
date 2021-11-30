@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "cc ",
+    "cs ",
+    "cs "
+  ],
+  "key": {
+    "c": {
+      "tag": "minecraft:stone_tool_materials"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "wfw:halberd_stone",
+    "count": 1
+  }
+
+}

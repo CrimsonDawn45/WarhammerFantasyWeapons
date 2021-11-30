@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "gg ",
+    " sh",
+    " s "
+  ],
+  "key": {
+    "g": {
+      "item": "wfw:gromril_ingot"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "h": {
+      "item": "wfw:glass_hammer"
+    }
+  },
+  "result": {
+    "item": "wfw:gromril_hoe",
+    "count": 1
+  }
+
+}

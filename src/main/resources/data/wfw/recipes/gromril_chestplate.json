@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ghg",
+    "ggg",
+    "ggg"
+  ],
+  "key": {
+    "g": {
+      "item": "wfw:gromril_ingot"
+    },
+    "h": {
+      "item": "wfw:glass_hammer"
+    }
+  },
+  "result": {
+    "item": "wfw:gromril_chestplate",
+    "count": 1
+  }
+
+}
