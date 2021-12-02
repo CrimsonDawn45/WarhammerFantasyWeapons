@@ -1,5 +1,6 @@
 package com.inpaladin.warhammerfantasyweapons.registry;
 
+import com.github.crimsondawn45.fabricshieldlib.lib.object.FabricShieldItem;
 import com.inpaladin.warhammerfantasyweapons.WarhammerFantasyWeapons;
 import com.inpaladin.warhammerfantasyweapons.items.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -8,7 +9,6 @@ import net.minecraft.item.*;
 import net.minecraft.tag.ItemTags;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
-//import com.github.crimsondawn45.fabricshieldlib.lib.object.FabricShieldItem;
 
 import static net.minecraft.item.ToolMaterials.*;
 
@@ -27,7 +27,7 @@ public class ModItems {
     public static final Item GLASS_HAMMER_BROKEN = new Item(new FabricItemSettings().group(ItemGroup.TOOLS));
     public static final Item GLASS_HAMMER = new Item(new FabricItemSettings().recipeRemainder(GLASS_HAMMER_BROKEN).group(ItemGroup.TOOLS));
     public static final Item NASCENT_ALLOY = new Item(new FabricItemSettings().group(ItemGroup.MATERIALS));
-    //public static final Item GROMRIL_SHIELD = new FabricShieldItem(new FabricItemSettings().fireproof().maxDamage(436).group(ItemGroup.COMBAT), 100, 0, ModItems.GROMRIL_INGOT);
+   // public static final Item GROMRIL_SHIELD = new FabricShieldItem(new FabricItemSettings().fireproof().maxDamage(436).group(ItemGroup.COMBAT), 100, 0, ModItems.GROMRIL_INGOT);
 
     //armor
     public static final ArmorMaterial ARMOR_MATERIAL_GROMRIL = new ArmorMaterialGromril();
