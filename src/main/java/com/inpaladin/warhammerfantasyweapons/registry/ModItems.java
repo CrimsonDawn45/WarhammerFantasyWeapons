@@ -1,6 +1,6 @@
 package com.inpaladin.warhammerfantasyweapons.registry;
 
-import com.github.crimsondawn45.fabricshieldlib.lib.object.FabricShieldItem;
+//import com.github.crimsondawn45.fabricshieldlib.lib.object.FabricShieldItem;
 import com.inpaladin.warhammerfantasyweapons.WarhammerFantasyWeapons;
 import com.inpaladin.warhammerfantasyweapons.items.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
