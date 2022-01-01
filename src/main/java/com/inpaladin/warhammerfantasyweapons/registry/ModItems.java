@@ -1,6 +1,6 @@
 package com.inpaladin.warhammerfantasyweapons.registry;
 
-//import com.github.crimsondawn45.fabricshieldlib.lib.object.FabricShieldItem;
+import com.github.crimsondawn45.fabricshieldlib.lib.object.FabricShieldItem;
 import com.inpaladin.warhammerfantasyweapons.WarhammerFantasyWeapons;
 import com.inpaladin.warhammerfantasyweapons.items.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -16,7 +16,7 @@ public class ModItems {
 
     //items
     public static final Item GROMRIL_INGOT = new Item(new FabricItemSettings().fireproof().group(ItemGroup.MATERIALS));
-    //public static final Item SWORD_BREAKER_WOOD = new FabricShieldItem(new FabricItemSettings().maxDamage(36).group(ItemGroup.COMBAT), 10, 0, ItemTags.PLANKS);
+    public static final Item SWORD_BREAKER_WOOD = new FabricShieldItem(new FabricItemSettings().maxDamage(36).group(ItemGroup.COMBAT), 10, 0, ItemTags.PLANKS);
     //public static final Item SWORD_BREAKER_STONE = new FabricShieldItem(new FabricItemSettings().maxDamage(76).group(ItemGroup.COMBAT), 10, 0, ItemTags.STONE_TOOL_MATERIALS);
     //public static final Item SWORD_BREAKER = new FabricShieldItem(new FabricItemSettings().maxDamage(176).group(ItemGroup.COMBAT), 10, 0, Items.IRON_INGOT);
     //public static final Item SWORD_BREAKER_DIAMOND = new FabricShieldItem(new FabricItemSettings().maxDamage(276).group(ItemGroup.COMBAT), 10, 0, Items.DIAMOND);
@@ -48,7 +48,7 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(WarhammerFantasyWeapons.MOD_ID, "war_hammer_diamond"), new WarHammerBase(DIAMOND, new FabricItemSettings().group(ItemGroup.COMBAT)));
         Registry.register(Registry.ITEM, new Identifier(WarhammerFantasyWeapons.MOD_ID, "war_hammer_netherite"), new WarHammerBase(NETHERITE, new FabricItemSettings().fireproof().group(ItemGroup.COMBAT)));
         Registry.register(Registry.ITEM, new Identifier(WarhammerFantasyWeapons.MOD_ID, "war_hammer_gromril"), new WarHammerBase(new ToolMaterialGromril(), new FabricItemSettings().fireproof().group(ItemGroup.COMBAT)));
-        //Registry.register(Registry.ITEM, new Identifier(WarhammerFantasyWeapons.MOD_ID, "sword_breaker_wood"), SWORD_BREAKER_WOOD);
+        Registry.register(Registry.ITEM, new Identifier(WarhammerFantasyWeapons.MOD_ID, "sword_breaker_wood"), SWORD_BREAKER_WOOD);
         //Registry.register(Registry.ITEM, new Identifier(WarhammerFantasyWeapons.MOD_ID, "sword_breaker_stone"), SWORD_BREAKER_STONE);
         //Registry.register(Registry.ITEM, new Identifier(WarhammerFantasyWeapons.MOD_ID, "sword_breaker"), SWORD_BREAKER);
         //Registry.register(Registry.ITEM, new Identifier(WarhammerFantasyWeapons.MOD_ID, "sword_breaker_gold"), SWORD_BREAKER_GOLD);

@@ -23,7 +23,7 @@ dependencies {
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
 	//shield stuff
-	//implementation 'com.github.CrimsonDawn45:Fabric-Shield-Lib:v1.4.5-1.18'
+	implementation 'com.github.CrimsonDawn45:Fabric-Shield-Lib:v1.4.5-1.18'
 
 	// PSA: Some older mods, compiled on Loom 0.2.1, might have outdated Maven POMs.
 	// You may need to force-disable transitiveness on them.
