@@ -2,15 +2,33 @@ package com.inpaladin.warhammerfantasyweapons.registry;
 
 import com.github.crimsondawn45.fabricshieldlib.lib.object.FabricShieldItem;
 import com.inpaladin.warhammerfantasyweapons.WarhammerFantasyWeapons;
-import com.inpaladin.warhammerfantasyweapons.items.*;
+import com.inpaladin.warhammerfantasyweapons.items.ArmorMaterialGromril;
+import com.inpaladin.warhammerfantasyweapons.items.CustomAxeItem;
+import com.inpaladin.warhammerfantasyweapons.items.CustomHoeItem;
+import com.inpaladin.warhammerfantasyweapons.items.CustomPickaxeItem;
+import com.inpaladin.warhammerfantasyweapons.items.HalberdBase;
+import com.inpaladin.warhammerfantasyweapons.items.HalberdMaterialDiamond;
+import com.inpaladin.warhammerfantasyweapons.items.HalberdMaterialGold;
+import com.inpaladin.warhammerfantasyweapons.items.HalberdMaterialGromril;
+import com.inpaladin.warhammerfantasyweapons.items.HalberdMaterialIron;
+import com.inpaladin.warhammerfantasyweapons.items.HalberdMaterialNetherite;
+import com.inpaladin.warhammerfantasyweapons.items.HalberdMaterialStone;
+import com.inpaladin.warhammerfantasyweapons.items.HalberdMaterialWood;
+import com.inpaladin.warhammerfantasyweapons.items.RapierBase;
+import com.inpaladin.warhammerfantasyweapons.items.ToolMaterialGromril;
+import com.inpaladin.warhammerfantasyweapons.items.WarHammerBase;
+
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.entity.EquipmentSlot;
-import net.minecraft.item.*;
+import net.minecraft.item.ArmorItem;
+import net.minecraft.item.ArmorMaterial;
+import net.minecraft.item.BlockItem;
+import net.minecraft.item.Item;
+import net.minecraft.item.ShovelItem;
+import net.minecraft.item.SwordItem;
 import net.minecraft.tag.ItemTags;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
-
-import static net.minecraft.item.ToolMaterials.*;
 
 public class ModItems {
 
